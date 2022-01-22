@@ -27,7 +27,25 @@
         <br><br>
         <h3 id="status" class="btn btn-primary">status -</h3>
         <br><br>
+        <button id="btnRestart" class="btn btn-danger" onclick="restart()">Restart</button>
         <div id="canvas"></div>
+        <br><br>
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal">&times;</button>
+                        <h3>instructions</h3>
+                    </div>
+                    <div class="modal-body">
+                        <ol id="instructions">
+                            <li>to move the paddle up, move your wrists upward.</li>
+                            <li>to move the paddle down, move you wrist downward</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
         <footer>Developed by - Kaylee Kim</footer>
     </center>
     <script src="main.js"></script>
